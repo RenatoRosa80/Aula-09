@@ -5,7 +5,6 @@ notas = []
 
 for i in range(4):
     nota = float(input (f" Informe a {i+1}ª Nota: "))
-  
     notas.append(nota)
 
 media = sum(notas) / 4
